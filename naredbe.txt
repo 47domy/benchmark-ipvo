@@ -1,0 +1,28 @@
+Priprema:
+docker pull mongo
+docker build -t reader .
+
+Postavljanje kontejnera za MongoDB bazu podataka:
+docker run -d -p 27017:27017 --name database mongo
+
+Unos podataka bez indeksa u bazu:
+python insert_fake.py
+
+Odabir broja dokumenata za unos u bazu:
+10000
+
+Čitanje podataka iz baze (u testiranju provedeno uzastopno 10 puta):
+docker run --rm --link database:mongodb reader
+
+Dodavanje indeksa u bazu:
+python insert_fake_index.py
+
+Čitanje podataka iz baze (u testiranju provedeno uzastopno 10 puta):
+docker run --rm --link database:mongodb reader
+
+Brisanje kontejnera (opcionalno):
+docker stop <container_id>
+docker rm <container_id>
+
+# Kod testiranja za 100 000 dokumenata, ponovi sve korake jednako, osim 
+# kod odabira broja dokumenata za unos u bazu stavi 100 000.

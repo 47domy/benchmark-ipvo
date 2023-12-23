@@ -1,0 +1,86 @@
+Rezultati za pretraživanje baze sa 10 000 dokumenata:
+--- Bez indeksa ---
+Number of documents found:  579
+Time for reads: 0.02581310272216797
+Number of documents found:  699
+Time for reads: 0.029030323028564453
+Number of documents found:  199
+Time for reads: 0.02960944175720215
+Number of documents found:  786
+Time for reads: 0.03299307823181152
+Number of documents found:  336
+Time for reads: 0.020162343978881836
+Number of documents found:  607
+Time for reads: 0.024447917938232422
+Number of documents found:  27
+Time for reads: 0.01606154441833496
+Number of documents found:  414
+Time for reads: 0.02541947364807129
+Number of documents found:  153
+Time for reads: 0.019863367080688477
+Number of documents found:  179
+Time for reads: 0.022904634475708008
+--- Sa indeksom ---
+Number of documents found:  422
+Time for reads: 0.022800207138061523
+Number of documents found:  185
+Time for reads: 0.019770383834838867
+Number of documents found:  87
+Time for reads: 0.01558685302734375
+Number of documents found:  475
+Time for reads: 0.027786731719970703
+Number of documents found:  398
+Time for reads: 0.042876482009887695
+Number of documents found:  457
+Time for reads: 0.030709505081176758
+Number of documents found:  404
+Time for reads: 0.028696775436401367
+Number of documents found:  136
+Time for reads: 0.01776123046875
+Number of documents found:  836
+Time for reads: 0.04109787940979004
+Number of documents found:  734
+Time for reads: 0.025087833404541016
+Rezultati za pretraživanje baze sa 100 000 dokumenata:
+--- Bez indeksa ---
+Number of documents found:  9495
+Time for reads: 0.32762670516967773
+Number of documents found:  8241
+Time for reads: 0.295290470123291
+Number of documents found:  6158
+Time for reads: 0.23219966888427734
+Number of documents found:  3100
+Time for reads: 0.1778712272644043
+Number of documents found:  5714
+Time for reads: 0.25914740562438965
+Number of documents found:  6944
+Time for reads: 0.28162312507629395
+Number of documents found:  2224
+Time for reads: 0.15576744079589844
+Number of documents found:  2063
+Time for reads: 0.14159703254699707
+Number of documents found:  5902
+Time for reads: 0.301563024520874
+Number of documents found:  8245
+Time for reads: 0.29465579986572266
+--- Sa indeksom ---
+Number of documents found:  4279
+Time for reads: 0.21554231643676758
+Number of documents found:  1285
+Time for reads: 0.1678626537322998
+Number of documents found:  11134
+Time for reads: 0.46292781829833984
+Number of documents found:  4625
+Time for reads: 0.19976091384887695
+Number of documents found:  5930
+Time for reads: 0.27437806129455566
+Number of documents found:  5220
+Time for reads: 0.19738388061523438
+Number of documents found:  3885
+Time for reads: 0.1926436424255371
+Number of documents found:  3453
+Time for reads: 0.21441388130187988
+Number of documents found:  5912
+Time for reads: 0.24083876609802246
+Number of documents found:  10361
+Time for reads: 0.30506324768066406
